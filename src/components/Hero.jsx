@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center 
-        bg-gradient-to-br from-[#1E293B] to-[#64748B] 
+        bg-gradient-to-r from-blue-400 to-teal-300 
         text-[#F8FAFC] px-6">
       
       <h1 className="text-6xl md:text-7xl font-bold font-[Poppins]">
