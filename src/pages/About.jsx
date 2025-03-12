@@ -27,9 +27,11 @@ function About() {
           When I'm not coding, I enjoy exploring new design trends, 
           experimenting with animations, and learning about AI automation.
         </p>
-        <Link className="mt-6 bg-[#7A73D1] hover:bg-[#B5A8D5] text-[#FFFFFF] font-semibold py-4 px-9 rounded-lg shadow-md transition duration-300" to="/projects">
-          View My Work
-        </Link>
+        <div className="mt-10">
+          <Link className="bg-[#7A73D1] hover:bg-[#B5A8D5] text-[#FFFFFF] font-semibold py-4 px-9 rounded-lg shadow-md transition duration-300" to="/projects">
+            View My Work
+          </Link>
+        </div>
       </div>
     </section>
   )
