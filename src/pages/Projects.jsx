@@ -17,24 +17,24 @@ function Projects() {
 
 
     return (
-    <section className="py-20 px-6 flex flex-col items-center bg-gradient-to-r from-blue-400 to-teal-300 h-screen">
-      <h2 className="text-3xl font-bold text-center mb-8">My Projects</h2>
+      <section className="py-20 px-6 flex flex-col items-center min-h-screen bg-gradient-to-b from-[#211C84] to-[#4D55CC]">
+      <h2 className="text-5xl font-bold text-center mb-8 text-[#FFFFFF]">My Projects</h2>
       <div className="mb-6 flex gap-4">
-        {categories.map(category => (
-          <button key={category} onClick={() => setSelectedCategory(category)} className={`px-4 py-2 rounded-lg ${selectedCategory === category ? "bg-blue-600 text-white" : "bg-gray-300"}`}>
-            {category}
-          </button>
-        ))}
+          {categories.map(category => (
+              <button key={category} onClick={() => setSelectedCategory(category)} className={`px-4 py-2 rounded-lg ${selectedCategory === category ? "bg-[#7A73D1] text-white" : "bg-[#B5A8D5] text-[#211C84]"}`}>
+                  {category}
+              </button>
+          ))}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-4xl place-items-center">
-        {filteredProjects.map((project, index) => (
-          <div key={index} className="p-6 bg-white shadow-lg rounded-xl flex flex-col items-center text-center w-full max-w-xs border border-gray-300 transition-all duration-300 transform hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-            <p className="text-gray-600">{project.description}</p>
-          </div>
-        ))}
+          {filteredProjects.map((project, index) => (
+              <div key={index} className="p-6 bg-[#7A73D1] shadow-lg rounded-xl flex flex-col items-center text-center w-full max-w-xs border border-[#B5A8D5] text-[#FFFFFF] transition-all duration-300 transform hover:scale-105">
+                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                  <p className="text-[#EAEAEA]">{project.description}</p>
+              </div>
+          ))}
       </div>
-    </section>
+  </section>
   )
 }
 
