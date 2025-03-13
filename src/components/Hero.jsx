@@ -12,13 +12,13 @@ function Hero() {
         <div className="flex justify-center space-x-4">
           <Link
             to="/projects"
-            className="bg-[#7A73D1] text-[#FFFFFF] px-6 py-3 rounded-lg font-semibold hover:bg-[#B5A8D5] transition duration-300"
+            className="bg-[#B5A8D5] text-[#FFFFFF] px-8 py-4 rounded-lg font-semibold hover:bg-[#7A73D1] transition duration-300"
           >
             View Projects
           </Link>
           <Link
             to="/contact"
-            className="border-2 border-[#7A73D1] text-[#7A73D1] px-6 py-3 rounded-lg font-semibold hover:bg-[#7A73D1] hover:text-[#FFFFFF] transition duration-300"
+            className="border-2 border-[#B5A8D5] text-[#FFFFFF] px-8 py-4 rounded-lg font-semibold hover:bg-[#7A73D1] hover:text-[#FFFFFF] transition duration-300"
           >
             Contact Me
           </Link>

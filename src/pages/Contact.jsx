@@ -6,7 +6,7 @@ import { faFacebook, faTwitter, faLinkedin, faGithub } from "@fortawesome/free-b
 function Contact() {
   return (
     <section className="py-20 px-6 flex flex-col items-center bg-gradient-to-b from-[#211C84] to-[#4D55CC] min-h-screen">
-      <h2 className="text-5xl font-bold text-center mb-8 text-[#FFFFFF]">Contact Me</h2>
+      <h2 className="text-5xl font-bold text-center mb-8 text-[#FFFFFF] text-decoration-line: underline">Contact Me</h2>
       <form className="w-full max-w-md bg-[#7A73D1] shadow-lg rounded-xl p-8 border border-[#B5A8D5] text-[#FFFFFF]">
         <label className="block mb-4">
           <span className="text-[#EAEAEA]">Name</span>
@@ -23,13 +23,13 @@ function Contact() {
         <button type="submit" className="bg-[#4D55CC] hover:bg-[#B5A8D5] text-[#FFFFFF] px-4 py-3 rounded-md w-full transition duration-300">Send Message</button>
       </form>
       <div className="social-icons flex gap-4 space-x-6 py-5">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-[#B5A8D5] text-4xl">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] text-4xl">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#7A73D1] text-4xl">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] text-4xl">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#211C84] text-4xl">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] text-4xl">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#FFFFFF] text-4xl">

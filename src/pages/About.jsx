@@ -15,10 +15,10 @@ function About() {
       </div>
 
       <div className="md:w-1/2 text-center md:text-left mt-6 md:mt-0">
-        <h2 className="text-6xl font-bold text-[#FFFFFF]">
+        <h2 className="text-6xl font-bold text-[#FFFFFF] text-decoration-line: underline">
           About Me
         </h2>
-        <p className="text-2xl text-[#B5A8D5] mt-4 leading-relaxed text-[#FFFFFF]">
+        <p className="text-2xl mt-4 leading-relaxed text-[#FFFFFF]">
           Hi, I'm <span className="font-bold text-[#7A73D1]">Maureen</span>! A passionate front-end developer 
           dedicated to crafting intuitive and visually stunning web experiences. 
           I specialize in React, JavaScript, and elegant UI design.
