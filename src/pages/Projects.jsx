@@ -1,14 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 function Projects() {
     const [selectedCategory, setSelectedCategory] = useState("All");
 
   const projects = [
-    { title: "E-commerce Website", category: "Frontend", description: "A modern online store with React." },
-    { title: "API Development", category: "Backend", description: "Building scalable APIs with Node.js." },
+    { title: "E-commerce Website", category: "Frontend", description: "A modern online store with React.", link: "https://github.com/Maureen0007/Aristotle.git"  },
+    { title: "API Development", category: "Backend", description: "Building scalable APIs with Node.js.", link: "https://github.com/Maureen0007/SocialApp-Rest-Api.git" },
     { title: "AI Chatbot", category: "AI", description: "A chatbot using machine learning." },
-    { title: "Portfolio Website", category: "Frontend", description: "A personal portfolio built with React." }
+    { title: "Portfolio Website", category: "Frontend", description: "A personal portfolio built with React.", link: "https://github.com/Maureen0007/My-Portfolio.git" }
   ];
 
   const categories = ["All", "Frontend", "Backend", "AI"];
@@ -30,6 +30,7 @@ function Projects() {
               <div key={index} className="p-16 bg-[#7A73D1] shadow-lg rounded-xl flex flex-col items-center text-center w-full max-w-md border border-[#B5A8D5] text-[#FFFFFF] transition-all duration-300 transform hover:scale-105">
                   <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                   <p className="text-[#EAEAEA]">{project.description}</p>
+                  <Link to={project.link} className='text-center border-2 border-[#B5A8D5] text-[#FFFFFF] px-8 py-4 my-6 rounded-lg font-semibold hover:bg-[#4D55CC] hover:text-[#FFFFFF] transition duration-300'>View project</Link>
               </div>
           ))}
       </div>

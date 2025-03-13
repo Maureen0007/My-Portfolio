@@ -15,12 +15,12 @@ function Services() {
   return (
     <section className="py-20 px-6 flex flex-col items-center min-h-screen h-screen overflow-hidden bg-gradient-to-b from-[#211C84] to-[#4D55CC]">
       <h2 className="text-5xl font-bold text-center mb-8 text-[#FFFFFF] underline">My Services</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full max-w-6xl place-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10 py-8 px-10 w-full max-w-6xl place-items-center">
         {services.map((service, index) => (
           <button
             key={index}
             onClick={() => setSelectedService(service)}
-            className="p-8 bg-[#7A73D1] shadow-lg rounded-xl flex flex-col items-center text-center w-full max-w-sm border border-[#B5A8D5] text-[#FFFFFF] transition-all duration-300 transform hover:scale-105 hover:bg-[#B5A8D5] hover:text-[#211C84]"
+            className="p-16 bg-[#7A73D1] shadow-lg rounded-xl flex flex-col items-center text-center w-full max-w-sm border border-[#B5A8D5] text-[#FFFFFF] transition-all duration-300 transform hover:scale-105 hover:bg-[#B5A8D5] hover:text-[#211C84]"
           >
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-[#EAEAEA]">{service.description}</p>
