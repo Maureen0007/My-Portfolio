@@ -5,7 +5,7 @@ import { faFacebook, faTwitter, faLinkedin, faGithub } from "@fortawesome/free-b
 
 function Contact() {
   return (
-    <section className="py-20 px-6 flex flex-col items-center bg-gradient-to-b from-[#211C84] to-[#4D55CC] min-h-screen">
+    <section className="py-20 px-6 flex flex-col items-center bg-gradient-to-b from-[#211C84] to-[#4D55CC] min-h-screen h-full">
       <h2 className="text-5xl font-bold text-center mb-8 text-[#FFFFFF] text-decoration-line: underline">Contact Me</h2>
       <form className="w-full max-w-md bg-[#7A73D1] shadow-lg rounded-xl p-8 border border-[#B5A8D5] text-[#FFFFFF]">
         <label className="block mb-4">

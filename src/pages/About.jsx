@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function About() {
   return (
-    <section className="bg-gradient-to-b from-[#211C84] to-[#4D55CC] min-h-screen flex flex-col md:flex-row items-center justify-center p-8 text-[#EAEAEA]">
+    <section className="bg-gradient-to-b from-[#211C84] to-[#4D55CC] min-h-screen h-full flex flex-col md:flex-row items-center justify-center p-8 text-[#EAEAEA]">
       
       <div className="md:w-1/2 flex justify-center">
         <img
