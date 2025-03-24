@@ -9,17 +9,16 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-  <>
-      
-      <Routes>
-      <Navbar />
-        <Route path="/" element={<Hero />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </>
+    <Router>
+    <Navbar /> 
+    <Routes>
+      <Route path="/" element={<Hero />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </Router>
   );
 }
 
