@@ -6,7 +6,7 @@ function Projects() {
 
   const projects = [
     { title: "E-commerce Website", category: "Frontend", description: "A modern online store with React.", link: "https://github.com/Maureen0007/Aristotle.git"  },
-    { title: "API Development", category: "Backend", description: "Building scalable APIs with Node.js.", link: "https://github.com/Maureen0007/SocialApp-Rest-Api.git" },
+    { title: "API Development", category: "Backend", description: "Building scalable APIs with Node.js.", link: "https://github.com/Maureen0007/SocialApp-Rest-Api" },
     { title: "AI Chatbot", category: "AI", description: "A chatbot using machine learning." },
     { title: "Portfolio Website", category: "Frontend", description: "A personal portfolio built with React.", link: "https://github.com/Maureen0007/My-Portfolio.git" }
   ];
