@@ -6,7 +6,7 @@ function Projects() {
 
   const projects = [
     { title: "Smart Task Tracker", category: "Frontend", description: "A simple and responsive task tracking app with dark mode and filtering.", link: "https://smart-task-tracker-beta.vercel.app/"  },
-    { title: "API Development", category: "Backend", description: "Building scalable APIs with Node.js.", link: "https://github.com/Maureen0007/SocialApp-Rest-Api" },
+    { title: "Recipe Rest API", category: "Backend", description: "Building a scalable recipe API with Node.js.", link: "https://github.com/Maureen0007/Recipe_Rails_API" },
     { title: "AI Chatbot", category: "AI", description: "A chatbot using machine learning." },
     { title: "Portfolio Website", category: "Frontend", description: "A personal portfolio built with React.", link: "https://github.com/Maureen0007/My-Portfolio.git" }
   ];
@@ -16,7 +16,7 @@ function Projects() {
   const filteredProjects = selectedCategory === "All" ? projects : projects.filter(project => project.category === selectedCategory);
 
   return (
-    <section className="py-16 px-4 flex flex-col items-center min-h-screen h-full bg-gradient-to-b from-[#211C84] to-[#4D55CC]">
+    <section className="py-16 px-4 flex flex-col items-center min-h-screen h-full bg-linear-to-b from-[#211C84] to-[#4D55CC]">
       <h2 className="text-5xl font-bold text-center mb-8 text-[#FFFFFF] underline">My Projects</h2>
       <div className="mb-6 flex flex-wrap justify-center gap-4">
           {categories.map(category => (
