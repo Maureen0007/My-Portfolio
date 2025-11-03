@@ -7,7 +7,7 @@ function Projects() {
   const projects = [
     { title: "Recipe App Design", category: "Product Design", description: "A UI/UX prototype design made with figma for a recipe app", link: "https://www.figma.com/proto/14dX2oYCCaze8NTTDs8RLE/Food-Recipe-App--Community-?node-id=0-1&t=g58lzB74TAUsWtLp-1"  },
     { title: "Smart Task Tracker", category: "Frontend", description: "A simple and responsive task tracking app with dark mode and filtering.", link: "https://smart-task-tracker-beta.vercel.app/"  },
-    { title: "Recipe Rest API", category: "Backend", description: "Building a scalable recipe API with Node.js.", link: "https://github.com/Maureen0007/Recipe_Rails_API" },
+    { title: "Recipe Rest API", category: "Backend", description: "Building a scalable recipe API with Node.js.", link: "https://recipe-full-stack.onrender.com/" },
     { title: "AI Chatbot", category: "AI", description: "A chatbot using machine learning." },
     { title: "Portfolio Website", category: "Frontend", description: "A personal portfolio built with React.", link: "https://github.com/Maureen0007/My-Portfolio.git" }
   ];
